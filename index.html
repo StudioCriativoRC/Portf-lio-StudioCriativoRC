@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Profissional | Designers & Desenvolvedores Web</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xh6Wh9r8hhZg8opfKTq5p6aHXH6si5dnGcU5ZtsFuxIhqYxoqWdp3Uq2QPLiblinghMQWkNs/pGJ6+ZIZv+jjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <!-- Navegação -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#hero" class="logo">
+          <img src="Imagens/Logo0bg.png" alt="Logo" class="logo-icon" />
+          Studio Criativo
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#cards">O que encontrará</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container hero-inner">
+      <div class="hero-img reveal active">
+        <img src="Imagens/bebeca.png" alt="Foto Profissional" />
+        <img src="Imagens/Kaka.png" alt="Foto Profissional 2" />
+      </div>
+
+      <div class="hero-text reveal active">
+        <h1>PORTFÓLIO PROFISSIONAL</h1>
+        <h3>DESIGNERS & DESENVOLVEDORES WEB</h3>
+        <p>Transformamos ideias em experiências digitais únicas. Especializados em design responsivo e desenvolvimento front-end moderno.</p>
+
+        <!-- Formulário de Contato -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <input type="text" id="name" name="name" placeholder="Nome" required />
+          <input type="email" id="email" name="email" placeholder="Email" required />
+          <textarea id="message" name="message" rows="4" placeholder="Mensagem" required></textarea>
+          <button type="submit" class="btn">ENTRAR EM CONTATO</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <section id="cards">
+    <div class="container">
+      <h2 class="reveal">O QUE VOCÊ VAI ENCONTRAR</h2>
+      <div class="card-wrapper">
+        <div class="card reveal">
+          <i class="fa-solid fa-lightbulb"></i>
+          <p>Projetos criativos e funcionais que demonstram expertise técnica e visual</p>
+        </div>
+        <div class="card reveal">
+          <i class="fa-solid fa-chart-line"></i>
+          <p>Cases detalhados com processo criativo e resultados alcançados</p>
+        </div>
+        <div class="card reveal">
+          <i class="fa-solid fa-layer-group"></i>
+          <p>Experiência completa desde o conceito até a implementação final</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="reveal">PORTFÓLIO DE PROJETOS</h2>
+      <div class="grid">
+        <!-- Projeto 1 -->
+        <div class="project-card reveal">
+          <img src="Imagens/MJL TOOLS.png" alt="Projeto 01" />
+          <div class="project-content">
+            <h3>MJL TOOLS</h3>
+            <p>Landing Page com foco em Conversão</p>
+            <a href="https://studiocriativorc.github.io/MJL-TOOLS/" class="btn" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+        <!-- Projeto 2 -->
+        <div class="project-card reveal">
+          <img src="Imagens/Formulário.jpeg" alt="Projeto 02" />
+          <div class="project-content">
+            <h3>Formulário de Cadastro</h3>
+            <p>Formulário de cadastro com validação de campos</p>
+            <a href="https://rebecavitoriaslv.github.io/formulario-de-cadastro/" class="btn">Ver Projeto</a>
+          </div>
+        </div>
+        <!-- Projeto 3 -->
+        <div class="project-card reveal">
+          <img src="Imagens/Restaurante.jpeg" alt="Projeto 03" />
+          <div class="project-content">
+            <h3>Restaurante</h3>
+            <p>Exemplo de site de restaurante com menu e cardápio</p>
+            <a href="https://rebecavitoriaslv.github.io/Restaurante/#testimonials" class="btn">Ver Projeto</a>
+          </div>
+        </div>
+        <!-- Projeto 4 -->
+        <div class="project-card reveal">
+          <img src="Imagens/Starbucks.jpeg" alt="Projeto 04" />
+          <div class="project-content">
+            <h3>Starbucks</h3>
+            <p>Site referente a uma cafeteria</p>
+            <a href="https://rebecavitoriaslv.github.io/Starbucks/" class="btn">Ver Projeto</a>
+          </div>
+        </div>
+        <!-- Projeto 5 -->
+        <div class="project-card reveal">
+          <img src="Imagens/Relógio Digital.png" alt="Projeto 05" />
+          <div class="project-content">
+            <h3>Relógio Digital</h3>
+            <p>Site de relógio digital com animação</p>
+            <a href="https://rebecavitoriaslv.github.io/relogio-digital/" class="btn">Ver Projeto</a>
+          </div>
+        </div>
+    
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:2rem;" class="reveal">
+        <a href="#" class="btn" id="showProjects">VER TODOS OS PROJETOS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos">
+    <div class="container servicos-inner">
+      <div class="servicos-text reveal">
+        <h2>ESSES SERVIÇOS SÃO OBRIGATÓRIOS PARA QUEM:</h2>
+        <ul class="servicos-list">
+          <li><i class="fa-solid fa-pen-nib"></i>Precisa de identidade visual profissional e impactante</li>
+          <li><i class="fa-solid fa-mobile-screen-button"></i>Quer um site responsivo e otimizado para conversões</li>
+          <li><i class="fa-solid fa-users"></i>Busca soluções digitais que conectam com o público-alvo</li>
+        </ul>
+        <a href="#hero" class="btn">QUERO SOLICITAR ORÇAMENTO</a>
+      </div>
+
+      <div class="servicos-img reveal">
+        <img src="Imagens/dispositivos.png" alt="Mockup de dispositivos" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre / Rodapé -->
+  <section id="sobre">
+    <div class="container reveal">
+      <h2>Studio Criativo</h2>
+      <p>Profissionais com experiência em design digital, branding e desenvolvimento front-end. Nossa missão é criar soluções visuais e tecnológicas que destacam marcas e encantam usuários.</p>
+      <p>Entre em contato: <a href="mailto:studiocriativorc@gmail.com" style="color: var(--verde-esmeralda);">studiocriativorc@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Studio Criativo. Todos os direitos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
